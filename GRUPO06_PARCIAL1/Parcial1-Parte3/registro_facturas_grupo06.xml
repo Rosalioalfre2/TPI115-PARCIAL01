@@ -226,6 +226,37 @@
         </total>
     </factura>
 
+    <factura tipo="final">
+        <num>865</num>
+        <cliente codigo="8975" sexo="femenino">
+            <nombre>Billie Elish</nombre>
+            <documento>
+                <dui vence="2022-06-05">0256148-9</dui>
+            </documento>
+            <telefono tipo="celular" cia="digicel">68963245</telefono>
+            <email>billie.mamasita.elish@gmail.com</email>
+        </cliente>
+        <direccion depto="San Vicente" municipio="San Vicente">
+            <casa>El Centro poligono 05</casa>
+        </direccion>
+        <lineafactura factura="893">
+            <codigo tipo="peras">328</codigo>
+            <detalle>Peras importadas de Tutuxplan, Mexico </detalle>
+            <cantidad>12</cantidad>
+            <precio>
+                <moneda>$</moneda>
+                <valor>0.50</valor>
+            </precio>
+            <subtotal>
+                <moneda>$</moneda>
+                <valor>6.00</valor>
+            </subtotal>
+        </lineafactura>
+        <total>
+            <moneda>$</moneda>
+            <valor>6.00</valor>
+        </total>
+    </factura>
 
     <!-- 2 facturas de tipo credito  -->
     <factura tipo="credito">
@@ -257,6 +288,38 @@
         <total>
             <moneda>$</moneda>
             <valor>300.93</valor>
+        </total>
+    </factura>
+
+    <factura tipo="credito">
+        <num>2405</num>
+        <cliente codigo="5896" sexo="masculino">
+            <nombre>Jose Tyron Gonzalez</nombre>
+            <documento>
+                <pasaporte pais="Venezuela">VN89561236</pasaporte>
+            </documento>
+            <telefono tipo="celular" cia="tigo">74589632</telefono>
+            <email>3lCanserbero@gmail.com</email>
+        </cliente>
+        <direccion depto="Chalatenango" municipio="Chalatenango">
+            <oficina>Calle principal, 10av sur</oficina>
+        </direccion>
+        <lineafactura factura="456">
+            <codigo tipo="microfono">256</codigo>
+            <detalle>Microfono para raperos profesionales</detalle>
+            <cantidad>1</cantidad>
+            <precio>
+                <moneda>$</moneda>
+                <valor>51.99</valor>
+            </precio>
+            <subtotal>
+                <moneda>$</moneda>
+                <valor>51.99</valor>
+            </subtotal>
+        </lineafactura>
+        <total>
+            <moneda>$</moneda>
+            <valor>54.99</valor>
         </total>
     </factura>
 
