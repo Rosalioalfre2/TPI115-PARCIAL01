@@ -131,7 +131,10 @@
 
         <xs:element name="detalle"/>
         <xs:element name="cantidad"/>
-        <xs:element name="valor" type="tipopreciosubtotal"/>
+
+        <!--         <xs:element name="valor" type="tipopreciosubtotal"/> -->
+
+        <xs:element name="precio" type="tipopreciosubtotal"/>
      
         <xs:element name="subtotal" type="tipopreciosubtotal"/>
       </xs:all>
